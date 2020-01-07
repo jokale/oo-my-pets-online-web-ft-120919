@@ -8,7 +8,7 @@ class Owner
   # code goes here
   
   def initalize
-   @species = human
+   @species == human
   end 
   
     def say_species
@@ -18,6 +18,6 @@ class Owner
     def self.all 
       @@all
     end 
-     binding.pry 
+    # binding.pry 
     
 end
