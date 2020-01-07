@@ -4,6 +4,10 @@ class Owner
   
   # code goes here
   
+  def initalize
+    @@all << self 
+  end 
+  
   def species 
     @species=human 
   end 
@@ -11,4 +15,8 @@ class Owner
     def say_species
       @species
     end 
+    
+    def self.all 
+      @@all
+    end  
 end
