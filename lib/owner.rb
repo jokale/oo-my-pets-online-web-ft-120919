@@ -7,7 +7,7 @@ class Owner
   
   # code goes here
   
-  def initalize
+  def initialize
    @species == human
   end 
   
