@@ -18,6 +18,6 @@ class Owner
     def self.all 
       @@all
     end 
-    # binding.pry 
+    binding.pry 
     
 end
