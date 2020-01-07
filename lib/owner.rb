@@ -5,7 +5,7 @@ class Owner
   # code goes here
   
   def initalize
-    @@all << self 
+   
   end 
   
   def species 
