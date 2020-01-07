@@ -7,9 +7,9 @@ class Owner
   
   # code goes here
   
-  def initialize
-   @species == human
-  end 
+  # def initialize
+  # @species == human
+  # end 
   
     def say_species
       @species
