@@ -8,5 +8,5 @@ require 'pry'
     @owner = owner 
     end
     
-    binding.pry 
+    # binding.pry 
 end
