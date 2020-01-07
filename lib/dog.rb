@@ -1,5 +1,6 @@
 class Dog
   # code goes here
   
-  def
+  def initialize (name, owner)
+    
 end
