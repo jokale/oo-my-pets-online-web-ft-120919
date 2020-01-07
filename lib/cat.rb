@@ -1,6 +1,6 @@
-# require 'pry'
+require 'pry'
 
- Cat
+ class Cat
   # code goes here
   
   def initialize(name, owner)
@@ -8,5 +8,5 @@
     @owner = owner 
     end
     
-    # binding.pry 
+    binding.pry 
 end
