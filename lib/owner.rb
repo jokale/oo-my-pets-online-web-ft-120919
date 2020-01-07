@@ -1,17 +1,16 @@
+require "pry" 
+
 class Owner
+  
   
   attr_reader :name, :species 
   
   # code goes here
   
   def initalize
-   
+   @species = human
   end 
   
-  def species 
-    @species= human 
-  end 
-    
     def say_species
       @species
     end 
@@ -19,6 +18,6 @@ class Owner
     def self.all 
       @@all
     end 
-    
+     binding.pry 
     
 end
