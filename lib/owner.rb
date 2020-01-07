@@ -11,6 +11,10 @@ class Owner
   # @species == human
   # end 
   
+  def name 
+    @name = name 
+  end 
+  
     def say_species
       @species
     end 
