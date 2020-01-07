@@ -15,8 +15,8 @@ class Owner
     @name
   end 
   
-    def say_species
-      @species
+    def species
+      @species = human 
     end 
     
     def self.all 
