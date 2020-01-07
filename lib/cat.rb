@@ -3,5 +3,6 @@ class Cat
   
   def initialize(name, owner)
     @name = name
-  end 
+    @owner = owner 
+    end 
 end
