@@ -26,6 +26,9 @@ class Owner
     def self.all 
       @@all
     end 
-    # binding.pry 
+ 
+ def self.reset_all 
+   @reset_all
+ end 
     
 end
