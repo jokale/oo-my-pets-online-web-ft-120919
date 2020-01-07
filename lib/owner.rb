@@ -5,10 +5,10 @@ class Owner
   # code goes here
   
   def species 
-    @human=human 
+    @species=human 
   end 
     
     def say_species
-      
+      @species
     end 
 end
